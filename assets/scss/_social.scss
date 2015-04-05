@@ -1,0 +1,32 @@
+ul.social {
+  li a {
+    text-indent: -2000px;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    @include transition(all 0.5s ease-in-out);
+
+    &:hover {
+      @include transition(all 1.0s ease-in-out);
+      opacity: 1.0;
+    }
+
+    &.linkedin {
+      background-image: url("../img/social/linkedin.png");
+    }
+
+    &.twitter {
+      background-image: url("../img/social/twitter.png");
+    }
+
+    &.dribbble {
+      background-image: url("../img/social/dribbble.png");
+    }
+
+    &.github {
+      background-image: url("../img/social/github.png");
+    }
+  }
+}

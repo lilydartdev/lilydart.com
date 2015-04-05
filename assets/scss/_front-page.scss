@@ -1,0 +1,38 @@
+.intro-wrapper {
+
+  .intro {
+    font-size: 180%;
+    font-family: $base-font-family;
+    line-height: 120%;
+    color: $medium-green;
+    font-weight: 400;
+
+    @include media($medium-screen-up) {
+      font-size: 250%;
+    }
+
+    @include media($large-screen-up) {
+      font-size: 300%;
+    }
+  }
+
+  .job-title {
+    color: $medium-gray;
+  }
+}
+
+.blog-loop {
+  margin-top: $large-spacing * 2;
+  border-top: $border-dark;
+  padding-top: $large-spacing;
+
+  article {
+    margin: $large-spacing * 1.5 0;
+
+    h3 {
+      font-family: $base-font-family;
+      color: $medium-green;
+      font-weight: 400;
+    }
+  }
+}

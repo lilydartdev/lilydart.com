@@ -1,0 +1,116 @@
+header.banner {
+  @include clearfix;
+  position: relative;
+
+  @include linear-gradient(60deg, $medium-green, $light-green);
+  text-align: center;
+  padding: 0 0 $medium-spacing 0;
+  font-weight: 800;
+  font-size: smaller;
+  line-height: smaller;
+
+  @include media($medium-screen-up) {
+    text-align: left;
+    padding: 0;
+    font-size: inherit;
+    font-size: inherit;
+  }
+
+  a {
+    color: $lightest;
+  }
+
+  div {
+    h1.logo {
+      margin-bottom: 0;
+
+      a {
+        background: url("../img/lilydart-logo-retina-white.png") no-repeat center center;
+        height: 120px;
+        width: 128px;
+        background-size: 90% 90%;
+        text-indent: -5000px;
+        display: inline-block;
+        margin: auto;
+
+        @include media($medium-screen-up) {
+          height: 172px;
+          width: 180px;
+          margin: 0;
+          position: relative;
+          top: 20px;
+          left: 0;
+        }
+
+        @include media($large-screen-up) {
+          height: 250px;
+          width: 265px;
+        }
+      }
+    }
+  }
+
+  ul.social {
+    display: none;
+    visibility: none;
+
+    @include media($medium-screen-up) {
+      display: inline;
+      position: absolute;
+      top: 20px;
+      right: 16px;
+
+      li {
+        display: inline;
+      }
+    }
+  }
+
+  .email {
+    @include span-columns(12);
+    font-weight: 600;
+    border-bottom: $border;
+    padding: $small-spacing 0;
+    margin-bottom: $small-spacing;
+    font-size: 0.8em;
+
+    @include media($medium-screen-up) {
+      @include span-columns(2);
+      text-align: right;
+      position: absolute;
+      top: 20px;
+      right: 160px;
+      border-bottom: none;
+    }
+  }
+
+  nav {
+    @include span-columns(12);
+
+    @include media($medium-screen-up) {
+      @include span-columns(9);
+      float: right;
+      text-align: right;
+      position: relative;
+      top: -110px;
+      border-top: none;
+    }
+
+    @include media ($large-screen-up) {
+      top: -175px;
+    }
+
+    ul li {
+      display: inline;
+      padding: 0 $small-spacing;
+
+      &:first-child {
+        padding: 0 $small-spacing 0 0;
+      }
+
+      &:last-child {
+        padding: 0 0 0 $small-spacing;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+footer.content-info {
+  background-color: $dark-gray;
+  color: $lightest;
+  padding: $large-spacing 0 $medium-spacing 0;
+  text-align: center;
+
+  a {
+    color: $lightest;
+  }
+
+  h6 {
+    color: $lightest;
+  }
+
+  .button {
+    @extend button;
+  }
+
+  ul.social {
+    margin-top: $large-spacing;
+
+    li {
+      display: inline;
+    }
+
+    @include media($large-screen-up) {
+      display: none;
+      visibility: none;
+    }
+  }
+
+  .details {
+    border-top: $border;
+    margin-top: $large-spacing;
+    padding: $medium-spacing 0;
+    font-size: 0.8em;
+
+    .email {
+      display: none;
+
+      @include media($large-screen-up) {
+        display: inline;
+        width: 50%;
+        float: right;
+        text-align: right;
+      }
+    }
+
+    .company {
+      @include media($large-screen-up) {
+        width: 50%;
+        float: left;
+        text-align: left;
+      }
+    }
+  }
+}

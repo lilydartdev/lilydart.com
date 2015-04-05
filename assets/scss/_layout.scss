@@ -1,0 +1,25 @@
+.outer-container {
+  @include outer-container;
+  position: relative;
+  padding: 0 $medium-spacing;
+}
+
+main {
+  .contain {
+    font-size: smaller;
+    padding: $large-spacing 0;
+
+    @include media($medium-screen-up) {
+      @include span-columns(9);
+      background: $lightest;
+      position: relative;
+      top: -100px;
+      float: right;
+      padding: $large-spacing * 1.5;
+    }
+
+    @include media($large-screen-up) {
+      top: -160px;
+    }
+  }
+}

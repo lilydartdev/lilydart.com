@@ -1,0 +1,74 @@
+/*
+Error: Undefined variable: "$visual-grid-opacity".
+        on line 6 of assets/scss/header.scss
+
+1: header.banner {
+2:   //@include radial-gradient(#1e5799, #3dc3d1);
+3:   //@include span-columns(6);
+4: 
+5:   nav {
+6:     opacity: $visual-grid-opacity;
+7:     background-color: $visual-grid-color;
+8:   }
+9: }
+
+Backtrace:
+assets/scss/header.scss:6
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/usr/local/var/rbenv/versions/2.2.0/bin/sass:23:in `load'
+/usr/local/var/rbenv/versions/2.2.0/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$visual-grid-opacity\".\A         on line 6 of assets/scss/header.scss\A \A 1: header.banner {\A 2:   //@include radial-gradient(#1e5799, #3dc3d1);\A 3:   //@include span-columns(6);\A 4: \A 5:   nav {\A 6:     opacity: $visual-grid-opacity;\A 7:     background-color: $visual-grid-color;\A 8:   }\A 9: }"; }

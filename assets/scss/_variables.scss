@@ -1,0 +1,55 @@
+
+// Font stack
+$raleway: 'Raleway', 'Helvetica Neue', Helvetica, Arial, san-serif;
+$bitter: 'Bitter', Georgia, Times, 'Times New Roman', serif;
+
+// Typography
+$base-font-family: $raleway;
+$heading-font-family: $bitter;
+$font-weight-default: 800;
+
+// Font Sizes
+$base-font-size: 1.8em;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Layout spacing
+$small-spacing: 0.5em;
+$medium-spacing: $small-spacing * 2;
+$large-spacing: $small-spacing * 3;
+
+// Colors
+$blue: #477dca;
+$dark-gray: #333;
+$medium-gray: #6B7A7A;
+$light-gray: #ddd;
+$lightest: #fff;
+
+$medium-green: #005052;
+$light-green: #52A8A7;
+
+$action-color: $light-green;
+
+// Font Colors
+$base-background-color: $lightest;
+$base-font-color: $dark-gray;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Other styles
+$border: 1px dotted $lightest;
+$border-dark: 1px dotted $dark-gray;
