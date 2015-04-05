@@ -32,14 +32,14 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: $medium-green;
   text-decoration: none;
   transition: color 0.1s linear;
 
   &:active,
   &:focus,
   &:hover {
-    color: darken($action-color, 15%);
+    color: darken($medium-green, 15%);
   }
 
   &:active,

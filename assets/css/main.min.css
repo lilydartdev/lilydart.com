@@ -193,13 +193,13 @@ p {
   margin: 0 0 0.5em; }
 
 a {
-  color: #52A8A7;
+  color: #005052;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
        -o-transition: color 0.1s linear;
           transition: color 0.1s linear; }
   a:active, a:focus, a:hover {
-    color: #397574; }
+    color: #000505; }
   a:active, a:focus {
     outline: none; }
 
