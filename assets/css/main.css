@@ -384,6 +384,7 @@ main .contain {
       margin-right: 2.35765%;
       width: 74.41059%;
       background: #fff;
+      font-size: inherit;
       position: relative;
       top: -100px;
       float: right;
