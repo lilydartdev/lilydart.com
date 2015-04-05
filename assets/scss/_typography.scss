@@ -33,7 +33,7 @@ p {
 
 a {
   color: $medium-green;
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.1s linear;
 
   &:active,

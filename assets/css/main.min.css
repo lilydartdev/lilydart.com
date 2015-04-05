@@ -194,7 +194,7 @@ p {
 
 a {
   color: #005052;
-  text-decoration: none;
+  text-decoration: underline;
   -webkit-transition: color 0.1s linear;
        -o-transition: color 0.1s linear;
           transition: color 0.1s linear; }

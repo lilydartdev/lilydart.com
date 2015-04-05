@@ -190,7 +190,7 @@ p {
 
 a {
   color: #005052;
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.1s linear; }
   a:active, a:focus, a:hover {
     color: #000505; }
