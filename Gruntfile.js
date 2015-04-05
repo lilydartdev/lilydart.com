@@ -62,7 +62,8 @@ module.exports = function(grunt) {
         src: 'assets/css/main.css'
       },
       build: {
-        src: 'assets/css/main.min.css'
+        src: 'assets/css/main.css',
+        dest: 'assets/css/main.min.css'
       }
     },
     modernizr: {
