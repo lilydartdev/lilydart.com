@@ -1,5 +1,3 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 node_modules
 npm-debug.log
 assets/vendor/*
@@ -9,3 +7,4 @@ assets/js/*scripts*.js
 assets/js/vendor/modernizr.min.js
 assets/manifest.json
 .sass-cache
+*.css.map
