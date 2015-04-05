@@ -403,10 +403,10 @@ main .contain {
   font-weight: 400; }
   @media screen and (min-width: 48em) {
     .intro-wrapper .intro {
-      font-size: 250%; } }
+      font-size: 200%; } }
   @media screen and (min-width: 64em) {
     .intro-wrapper .intro {
-      font-size: 300%; } }
+      font-size: 250%; } }
 .intro-wrapper .job-title {
   color: #6B7A7A; }
 
