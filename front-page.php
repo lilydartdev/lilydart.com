@@ -1,6 +1,7 @@
 <div class="intro-wrapper">
-  <h1 class="job-title">I do freelance service design and user experience</h1>
+  <h1 class="job-title">Freelance service design and user experience</h1>
   <h2 class="intro">I combine technical knowledge with design expertise to help organisations solve difficult problems.</h2>
+  <a href="mailto:<?php bloginfo('admin_email')?>" class="button">Get in touch</a>
 </div>
 
 <div class="blog-loop">

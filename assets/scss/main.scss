@@ -36,7 +36,10 @@ $large-screen: em(1024);
 
 @import "social";
 
+// Tidy me
 
-
+.button {
+  @extend button;
+}
 
 

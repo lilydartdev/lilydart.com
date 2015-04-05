@@ -12,10 +12,6 @@ footer.content-info {
     color: $lightest;
   }
 
-  .button {
-    @extend button;
-  }
-
   ul.social {
     margin-top: $large-spacing;
 
