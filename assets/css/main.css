@@ -396,8 +396,9 @@ main .contain {
       font-size: inherit;
       position: relative;
       top: -100px;
+      margin-bottom: -110px;
       float: right;
-      padding: 2.25em; }
+      padding: 2.25em 2.25em 0 2.25em; }
       main .contain:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 64em) {

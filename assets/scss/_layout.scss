@@ -14,10 +14,10 @@ main {
       background: $lightest;
       font-size: inherit;
       position: relative;
-
       top: -100px;
+      margin-bottom: -110px;
       float: right;
-      padding: $large-spacing * 1.5;
+      padding: $large-spacing * 1.5 $large-spacing * 1.5 0 $large-spacing * 1.5;
     }
 
     @include media($large-screen-up) {
