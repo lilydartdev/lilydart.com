@@ -17,7 +17,7 @@
   }
 
   .job-title {
-    color: $light-green;
+    color: $action-color;
     font-size: 150%;
   }
 }
@@ -26,6 +26,10 @@
   margin-top: $large-spacing * 2;
   border-top: $border-dark;
   padding-top: $large-spacing;
+
+  h2 {
+    margin-bottom: 0;
+  }
 
   article {
     margin: $large-spacing * 1.5 0;

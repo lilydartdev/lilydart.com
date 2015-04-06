@@ -67,24 +67,6 @@ header.banner {
     }
   }
 
-  .email {
-    @include span-columns(12);
-    font-weight: 600;
-    border-bottom: $border;
-    padding: $small-spacing 0;
-    margin-bottom: $small-spacing;
-    font-size: 0.8em;
-
-    @include media($medium-screen-up) {
-      @include span-columns(2);
-      text-align: right;
-      position: absolute;
-      top: 20px;
-      right: 160px;
-      border-bottom: none;
-    }
-  }
-
   nav {
     @include span-columns(12);
 

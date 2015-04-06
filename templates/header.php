@@ -1,6 +1,5 @@
 <header role="banner" class="banner">
   <div class="outer-container">
-    <span class="email"><a href="mailto:<?php bloginfo('admin_email')?>"><?php bloginfo('admin_email')?></a></span>
 
     <ul class="social">
       <li><a href="http://www.twitter.com/lily_dart" class="twitter">Twitter</a></li>

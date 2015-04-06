@@ -3,3 +3,13 @@
   font-weight: 600;
   padding: 0 0 $medium-spacing 0;
 }
+
+.entry-title {
+  font-family: $base-font-family;
+  font-weight: 400;
+  font-size: 200%;
+
+  @include media($medium-screen-up) {
+    font-size: 250%;
+  }
+}
