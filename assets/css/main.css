@@ -184,25 +184,35 @@ h6 {
     h5,
     h6 {
       font-size: larger; } }
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  text-decoration: none; }
-
-p + h1,
-p + h2,
-p + h3,
-p + h4,
-p + h5,
-p + h6 {
-  margin: 1.5em 0 1em 0; }
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    text-decoration: none; }
+  p h1, p
+  h2, p
+  h3, p
+  h4, p
+  h5, p
+  h6 {
+    margin: 1.5em 0 1em 0; }
+  h1 .author,
+  h2 .author,
+  h3 .author,
+  h4 .author,
+  h5 .author,
+  h6 .author {
+    color: #6B7A7A;
+    font-weight: 400; }
 
 h2 {
-  font-size: 120%;
+  font-size: 150%;
+  line-height: 150%; }
+
+h3 {
+  font-size: 110%;
   line-height: 150%; }
 
 p {

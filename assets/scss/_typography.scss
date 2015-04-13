@@ -25,28 +25,29 @@ h6 {
   @include media($small-screen-down) {
     font-size: larger;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  p & {
+    margin: $large-spacing 0 $medium-spacing 0;
+  }
+
+  .author {
+    color: $medium-gray;
+    font-weight: 400;
+  }
 }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  text-decoration: none;
-}
-
-p + h1,
-p + h2,
-p + h3,
-p + h4,
-p + h5,
-p + h6 {
-  margin: $large-spacing 0 $medium-spacing 0;
-}
 
 h2 {
-  font-size: 120%;
+  font-size: 150%;
+  line-height: 150%;
+}
+
+h3 {
+  font-size: 110%;
   line-height: 150%;
 }
 
