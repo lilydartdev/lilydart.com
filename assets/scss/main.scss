@@ -22,7 +22,7 @@ $large-screen: em(1024);
 @import "reset";
 @import "images";
 
-// Partials
+// Reused
 
 @import "header";
 @import "footer";
@@ -36,6 +36,7 @@ $large-screen: em(1024);
 // Elements
 
 @import "social";
+@import "pager";
 
 // Tidy me
 
@@ -77,10 +78,4 @@ blockquote.twitter-tweet a:focus {
   text-decoration: underline;
 }
 
-.twitter-contain {
-  width: 100%;
-  display: inline-block;
-  margin: $medium-spacing auto;
-  border: 1px black solid;
-  padding: $small-spacing;
-}
+

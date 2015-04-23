@@ -7,7 +7,7 @@
         </div>
       <?php endif; ?>
       <h1 class="entry-title"><?php the_title(); ?></h1>
-      <?php get_template_part('templates/entry-meta'); ?>
+      <?php get_template_part('templates/partials/entry-meta'); ?>
 
     </header>
     <div class="entry-content">
