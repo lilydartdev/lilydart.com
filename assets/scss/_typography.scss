@@ -47,7 +47,12 @@ h2 {
 }
 
 h3 {
-  font-size: 110%;
+  font-size: 125%;
+  line-height: 150%;
+}
+
+h4 {
+  font-size: 100%;
   line-height: 150%;
 }
 
@@ -88,6 +93,17 @@ picture {
 
 ul {
   list-style-type: disc;
+  list-style-position: outside;
+  padding-left: $large-spacing;
+  margin-bottom: $medium-spacing;
+
+  li {
+    margin: $small-spacing 0;
+  }
+}
+
+ol {
+  list-style-type: decimal;
   list-style-position: outside;
   padding-left: $large-spacing;
   margin-bottom: $medium-spacing;

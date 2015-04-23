@@ -216,7 +216,11 @@ h2 {
   line-height: 150%; }
 
 h3 {
-  font-size: 110%;
+  font-size: 125%;
+  line-height: 150%; }
+
+h4 {
+  font-size: 100%;
   line-height: 150%; }
 
 p {
@@ -253,12 +257,85 @@ ul {
   ul li {
     margin: 0.5em 0; }
 
+ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 1.5em;
+  margin-bottom: 1em; }
+  ol li {
+    margin: 0.5em 0; }
+
 html {
   font-size: 62.5%; }
 
 body {
   margin: 0;
   padding: 0; }
+
+.featured-image {
+  width: 100%;
+  height: 20%; }
+  .featured-image .wp-post-image {
+    height: 100%;
+    width: 100%; }
+
+.alignnone {
+  margin: 5px 20px 20px 0; }
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto; }
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+  @media screen and (min-width: 48em) {
+    .alignleft {
+      margin: 0.5em 0.5em 0.5em -30%; } }
+
+a img .alignright {
+  float: right;
+  margin: 5px 0 20px 20px; }
+a img .alignnone {
+  margin: 5px 20px 20px 0; }
+a img .alignleft {
+  float: left;
+  margin: 5px 20px 20px 0; }
+a img .aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.wp-caption {
+  max-width: 100%;
+  /* Image does not overflow the content area */
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+  @media screen and (min-width: 48em) {
+    .wp-caption {
+      margin: 0.5em; } }
+  .wp-caption.alignnone {
+    margin: 5px 20px 20px 0; }
+  .wp-caption.alignleft {
+    width: 100%; }
+  .wp-caption.alignright {
+    margin: 5px 0 20px 20px; }
+  .wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto; }
+  .wp-caption figcaption, .wp-caption p.wp-caption-text {
+    font-size: 80%;
+    text-align: left; }
 
 header.banner {
   position: relative;
@@ -465,6 +542,8 @@ main .contain {
   @media screen and (min-width: 48em) {
     .entry-title {
       font-size: 250%; } }
+  .featured-image + .entry-title {
+    margin-top: 0.5em; }
 
 ul.social {
   padding-left: 0; }
@@ -491,3 +570,41 @@ ul.social {
       background-image: url("../img/social/dribbble.png"); }
     ul.social li a.github {
       background-image: url("../img/social/github.png"); }
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px; }
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px; }
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none; }
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline; }
+
+.twitter-contain {
+  width: 100%;
+  display: inline-block;
+  margin: 1em auto;
+  border: 1px black solid;
+  padding: 0.5em; }

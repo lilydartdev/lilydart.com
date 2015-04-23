@@ -12,4 +12,8 @@
   @include media($medium-screen-up) {
     font-size: 250%;
   }
+
+  .featured-image + & {
+    margin-top: $small-spacing;
+  }
 }
