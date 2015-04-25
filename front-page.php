@@ -15,5 +15,5 @@
     <h3>No posts found</h3>
   <?php endif; ?>
 
-<?php get_template_part('templates/partials/pager'); ?>
+<?php // get_template_part('templates/partials/pager'); ?>
 </div>
